@@ -10,5 +10,7 @@ class ProjectsController < ApplicationController
   def contact
     @title = "Contact"
   end
-
+   def careers
+      @title = "Careers"
+   end
 end
