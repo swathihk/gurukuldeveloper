@@ -1,4 +1,10 @@
 Gurukuldeveloper::Application.routes.draw do
+  get "projects/about"
+
+  get "projects/services"
+
+  get "projects/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
