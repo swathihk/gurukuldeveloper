@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="1" selection-start="301" selection-end="301" vertical-scroll-proportion="0.07654321">
+            <state line="26" column="1" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.7692308">
+            <state line="17" column="86" selection-start="651" selection-end="651" vertical-scroll-proportion="0.56557375">
               <folding />
             </state>
           </provider>
@@ -70,9 +70,9 @@
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/careers.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/about.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -522,7 +522,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="808" height="578" extended-state="7" />
+    <frame x="-4" y="-4" width="808" height="578" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -634,16 +634,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-0.7692308">
+        <state line="26" column="1" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="301" selection-end="301" vertical-scroll-proportion="0.07654321">
+        <state line="17" column="86" selection-start="651" selection-end="651" vertical-scroll-proportion="0.56557375">
           <folding />
         </state>
       </provider>

@@ -12,10 +12,10 @@
       <header>
         <nav class="round">
           <ul>
-            <li><%= link_to "About", '#' %></li>
-            <li><%= link_to "services", '#' %></li>
-            <li><%= link_to "Careers", '#' %></li>
-            <li><%= link_to "Contact", '#' %></li>
+            <li><%= link_to "About", :controller => "projects", :action => "about" %></li>
+            <li><%= link_to "services", :controller => "projects", :action => "services" %></li>
+            <li><%= link_to "Careers", :controller => "projects", :action => "careers" %></li>
+            <li><%= link_to "Contact", :controller => "projects", :action => "contact" %></li>
           </ul>
         </nav>
       </header>
