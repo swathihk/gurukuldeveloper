@@ -1,0 +1,10 @@
+
+<h1>Education Details</h1>
+
+<%= form_tag(education_project_path(@project),:method => 'post') do %>
+:commenter
+<%= text_field_tag "education[collagename]" %>
+:message
+<%= text_area_tag "education[intername]" %>
+<%= button_to "education" %>
+<% end %>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Gurukul Developer</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<div class="container">
+  <div class="matter">
+    <h1 align= "center"> Gurukul Developer</h1>
+    <h4>A gurukul descriptions says   guru "teacher" or "master";
+      kul "home" or "where we learn new things"
+
+      <div class="head">
+
+        <%= link_to "About" ,:action => "about"%>
+        <%= link_to "Services" ,:action => "services"%>
+        <%= link_to "Careers" ,:action => "new"%>
+        <%= link_to "ContactUs" ,:action => "contact"%>
+       </div>
+    </h4>
+
+  </div>
+  <section class="round">
+    <%= yield %>
+  </section>
+</div>
+</body>
+</html>
