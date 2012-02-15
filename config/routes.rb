@@ -7,6 +7,7 @@ Gurukuldeveloper::Application.routes.draw do
     get 'contact'
      get 'about'
      get 'services'
+     get 'success'
   end
   end
 

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120212210031) do
+ActiveRecord::Schema.define(:version => 20120215154558) do
 
   create_table "educations", :force => true do |t|
     t.string   "degree"
@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(:version => 20120212210031) do
     t.string   "city"
     t.string   "state"
     t.string   "country"
-    t.integer  "mobile"
+    t.string   "mobile"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

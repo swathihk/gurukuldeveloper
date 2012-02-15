@@ -8,7 +8,7 @@ class ProjectsController < ApplicationController
   end
 
   def contact
-     render :action => 'contact'
+    render :action => 'contact'
   end
   def new
     @project=Project.new
@@ -16,23 +16,19 @@ class ProjectsController < ApplicationController
   def create
     @project=Project.new(params[:project])
     if @project.save
-          render :action => "education"
-        else
-          render :action => 'new'
-        end
+      render :action => "education"
+    else
+      render :action => 'new'
+    end
   end
   def education
-    @project =Project.find(params[:id])
-    logger.info("#{@project}")
-    @education=@project.education.create(:collagename=>params[:collagename],:intername =>params[:intername])
-      logger.info("#{@education}")
-      render :action => "about"
+    render :action => 'success'
   end
   def show
-   @project =Project.find(params[:id])
+    @project =Project.find(params[:id])
   end
   def edit
-   @project =Project.find(params[:id])
+    @project =Project.find(params[:id])
   end
   def update
     @project =Project.find(params[:id])

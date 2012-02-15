@@ -2,9 +2,36 @@
 <h1>Education Details</h1>
 
 <%= form_tag(education_project_path(@project),:method => 'post') do %>
-:commenter
-<%= text_field_tag "education[collagename]" %>
-:message
-<%= text_area_tag "education[intername]" %>
-<%= button_to "education" %>
+    <h2 align="left">10th Details</h2>
+    School Name &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <%= text_field_tag "education[schoolname]" %><br /><br />
+    Percentage of 10th  &nbsp; &nbsp;&nbsp; &nbsp;     <%= text_field_tag "education[schoolpercent]" %><br /><br />
+    Year of Passout(10th)&nbsp; &nbsp;  <%= text_field_tag "education[schoolyear]" %><br /><br />
+      <h2 align="left">12th or Diploma Details</h2>
+    Collage Name(12th or Diploma)    <%= text_field_tag "education[intername]" %><br /><br />
+    Percentage of 12th or Diploma    <%= text_field_tag "education[interpercent]" %> <br /><br />
+    Year of Passout(12th or Diploma) <%= text_field_tag "education[interyear]" %><br /><br />
+    <h2 align="left">Gradution Details</h2>
+    Degree Name<select name="education[degree]">
+  <option value="">Please select</option>
+  <option value="Btech/BE" selected="selected">Btech/BE</option>
+  <option value="bsc">Bsc</option>
+  <option value="msc">Msc</option>
+      <option value="bcom">Bcom</option>
+</select> <br /><br />
+  Stream Name<select name="education[stream]">
+  <option value="it" selected="selected">IT</option>
+  <option value="eee">EEE</option>
+  <option value="ece">ECE</option>
+  <option value="csc">CSC</option>
+  <option value="mtech">MTECH</option>
+  <option value="civil">CIVIL</option>
+  <option value="Mathematics">Mathematics</option>
+  <option value="science">Science</option>
+  <option value="computer">Computer</option>
+</select><br /><br />
+
+  Collage Name of Gradution <%= text_field_tag "education[collagename]" %> <br /><br />
+  Percentage of Gradution   <%= text_field_tag "education[graduatepercent]" %><br /><br />
+  Year of Passout<%= text_field_tag "education[graduateyear]" %> <br /><br />
+<button name="button" type="submit">Education Details</button>
 <% end %>
