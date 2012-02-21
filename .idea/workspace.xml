@@ -27,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="services.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="services.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/projects/services.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.5384617">
+            <state line="19" column="2" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7586207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="30" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,16 +48,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="968" selection-end="968" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="careers.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/careers.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="52" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14127424">
+            <state line="3" column="17" selection-start="30" selection-end="109" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/app/models/education.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/contact.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/projects/services.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/services.html.erb" />
       </list>
     </option>
   </component>
@@ -133,6 +133,8 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,6 +150,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gurukuldeveloper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gurukuldeveloper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gurukuldeveloper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gurukuldeveloper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gurukuldeveloper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,8 +359,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,15 +618,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="808" height="578" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="808" height="578" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33997345" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3612218" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -650,53 +682,54 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120212210031_create_educations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="383" selection-end="383" vertical-scroll-proportion="0.5037037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69688" column="45" selection-start="5544692" selection-end="5544731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="69688" column="45" selection-start="5544692" selection-end="5544731" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/education.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="155" selection-end="180" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
+        <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120211212658_create_projects.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="40" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/education.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.576923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/careers.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="52" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.9615384" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="766" selection-end="766" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="59" selection-start="766" selection-end="766" vertical-scroll-proportion="-5.8846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/success.html.erb">
@@ -706,58 +739,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
+    <entry file="model://gurukuldeveloper">
+      <provider selected="true" editor-type-id="AssociationsFileEditorProvider">
+        <state>
+          <settings isFieldsVisible="true" isMigrationFieldsVisible="true" isTypicalFieldsVisible="false" isOwnFieldsVisible="false" isHandToolMode="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120211212658_create_projects.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/education.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/education.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.31398416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/services.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.5384617">
+        <state line="5" column="41" selection-start="155" selection-end="180" vertical-scroll-proportion="0.04644809">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="968" selection-end="968" vertical-scroll-proportion="-7.8461537">
+        <state line="3" column="17" selection-start="30" selection-end="109" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/careers.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="52" selection-start="26" selection-end="26" vertical-scroll-proportion="0.14127424">
+        <state line="24" column="30" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/services.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7586207">
           <folding />
         </state>
       </provider>
