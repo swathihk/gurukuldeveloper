@@ -22,8 +22,15 @@ class ProjectsController < ApplicationController
     end
   end
   def education
+    @education=Education.new(params[:education])
+    logger.info(@education)
+    @education.project_id=params[:id]
+    if @education.save
     render :action => 'success'
-  end
+    else
+      render :action => 'education'
+    end
+    end
   def show
     @project =Project.find(params[:id])
   end
